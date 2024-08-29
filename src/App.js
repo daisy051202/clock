@@ -12,7 +12,7 @@ const textArray = [
   { text: "Dinner time 𓐐𓎩", hour: 15, className: "text5" },
   { text: "Movie & him ˖˚♡˚⁺˖", hour: 45, className: "text6" },
   { text: "✩₊˚🧸.⋆☾⋆⁺₊💤✧", hour: 40, className: "text7" },
-  { text: "˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆", hour: -10, className: "text8" },
+  { text: "˚˖𓍢ִ໋🌷͙֒✧˚.🎀༘⋆୨ৎ", hour: -10, className: "text8" },
 ];
 const needleArray = [5, 6, 9, 11, 13, 15, 18, 20, 22];
 export default function App() {
