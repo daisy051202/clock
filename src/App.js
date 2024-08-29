@@ -4,14 +4,14 @@ const numberArray = [
   22, 23,
 ];
 const textArray = [
-  { text: "Exercise 👟👟", hour: 10, className: "text" },
-  { text: "Do nothing 😴", hour: 60, className: "text1" },
-  { text: "Lunch time 🍱", hour: 90, className: "text2" },
-  { text: "Take a nap 😪", hour: 120, className: "text3" },
-  { text: "Read comic 📕", hour: -20, className: "text4" },
-  { text: "Dinner time 🥘", hour: 15, className: "text5" },
-  { text: "Movie & him 💜", hour: 45, className: "text6" },
-  { text: "🌕⭐️💤 ", hour: 40, className: "text7" },
+  { text: "Exercise ( ◡̀_◡́)ᕤ", hour: 10, className: "text" },
+  { text: "Do nothing ‧✩₊⊹♡", hour: 60, className: "text1" },
+  { text: "Lunch time ‧₊˚𓐐𓎩 ⋅", hour: 90, className: "text2" },
+  { text: "Take a nap ᶻ 𝗓 𐰁 .ᐟ", hour: 120, className: "text3" },
+  { text: "Read comic ✎ᝰ.📓", hour: -20, className: "text4" },
+  { text: "Dinner time 𓐐𓎩", hour: 15, className: "text5" },
+  { text: "Movie & him ˖˚♡˚⁺˖", hour: 45, className: "text6" },
+  { text: "✩₊˚🧸.⋆☾⋆⁺₊💤✧", hour: 40, className: "text7" },
 ];
 const needleArray = [5, 6, 9, 11, 13, 15, 18, 20, 22];
 export default function App() {
@@ -73,7 +73,7 @@ export default function App() {
           <button onClick={() => setStart((start) => !start)}>PLAY</button>
         </div>
       </div>
-      <h3 style={{ marginTop: "32px" }}>Made by baby 😻 💙</h3>
+      <h3 style={{ marginTop: "32px" }}>{"Made by baby /ᐠ > ˕ <マ ₊˚⊹♡ 💙"}</h3>
     </div>
   );
 }
