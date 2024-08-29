@@ -129,7 +129,7 @@ button:hover {
   font-family: "Nanum Gothic";
   font-weight: 400;
   font-size: 20px;
-  right: 140px;
+  right: 150px;
   top: 77%;
   text-transform: uppercase;
   text-align: center;
@@ -180,8 +180,8 @@ button:hover {
   font-family: "Nanum Gothic";
   font-weight: 400;
   font-size: 20px;
-  right: 250px;
-  top: 25%;
+  right: 240px;
+  top: 28%;
   text-transform: uppercase;
   text-align: center;
 }
@@ -195,6 +195,19 @@ button:hover {
   font-size: 35px;
   right: 60px;
   top: 15%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text8 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 400;
+  font-size: 23px;
+  right: 35px;
+  top: 41%;
   text-transform: uppercase;
   text-align: center;
 }
