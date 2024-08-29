@@ -1,13 +1,201 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --center-background: #ccb910;
+  --background: #e1ddda;
+  --clock-needle: #0c0c33;
+  --center-text: #423600;
+  --big-text: #262120;
+  --number-text: #22202c;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  flex-direction: column;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+  color: var(--number-text);
+  margin-bottom: 8px;
+}
+.title {
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 0.55rem;
+  color: var(--number-text);
+  margin-bottom: 42px;
+}
+.outerCircle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--number-text);
+  opacity: 0.8;
+  position: relative;
+}
+.clockCircle {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid var(--clock-needle);
+  top: 50%;
+  left: 50%;
+  margin: -245px 0px 0px -245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: var(--center-background);
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #bcab11;
+}
+
+.hand {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: -10;
+}
+
+.hand i {
+  position: absolute;
+  background-color: var(--clock-needle);
+  width: 5px;
+  height: 200px;
+  border: 8px;
+}
+
+.text {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 20px;
+  top: 55%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text1 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 78px;
+  top: 73%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text2 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 160px;
+  top: 77%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text3 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 235px;
+  top: 73%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text4 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 290px;
+  top: 57%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text5 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 290px;
+  top: 40%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text6 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 20px;
+  right: 265px;
+  top: 25%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text7 {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  font-family: "Nanum Gothic";
+  font-weight: 700;
+  font-size: 35px;
+  right: 50px;
+  top: 15%;
+  text-transform: uppercase;
+  text-align: center;
 }
