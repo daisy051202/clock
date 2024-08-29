@@ -205,9 +205,9 @@ button:hover {
   position: absolute;
   font-family: "Nanum Gothic";
   font-weight: 400;
-  font-size: 23px;
+  font-size: 19px;
   right: 35px;
-  top: 41%;
+  top: 43%;
   text-transform: uppercase;
   text-align: center;
 }
