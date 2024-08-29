@@ -73,6 +73,7 @@ export default function App() {
           <button onClick={() => setStart((start) => !start)}>PLAY</button>
         </div>
       </div>
+      <h3 style={{ marginTop: "32px" }}>Made by baby 😻 💙</h3>
     </div>
   );
 }
